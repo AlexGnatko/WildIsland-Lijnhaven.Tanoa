@@ -1,0 +1,20 @@
+#include "resource\A3.hpp"
+#include "resource\resources.hpp"
+#include "resource\dialogs.hpp"
+#include "resource\Sounds.hpp"
+
+respawn = 3;
+respawndelay = 5;
+disabledAI = true;
+respawnDialog = 0;
+author = "Al Hadid";
+OnLoadName = "Wild Island PvP";
+onLoadMission = "Wild Island PvP 1.0";
+onLoadMissionTime = false;
+
+class Header
+{
+	gameType = DM;
+	minPlayers = 1;
+	maxPlayers = 40;
+};
